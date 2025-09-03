@@ -1,7 +1,10 @@
 """
 file for agent class
-including:
-1. 
+tasks:
+1. checking obstacle collision bounds
+2. updating position based on feedforward neural network
+3. determining fitness based on speed and distance
+4. displaying agent to window
 """
 import pygame
 from settings import *

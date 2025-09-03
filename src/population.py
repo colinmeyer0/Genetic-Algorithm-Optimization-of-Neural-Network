@@ -1,9 +1,13 @@
 """
 population class
-including:
-1. 
+tasks:
+1. initializing generation of agents
+2. updating all agents
+3. selecting parents based on fitness
+4. evolving population
+5. determining population status 
 """
-import pygame
+
 from settings import *
 from agent import Agent
 from genome import Genome

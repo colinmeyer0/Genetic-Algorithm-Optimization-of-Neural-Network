@@ -2,11 +2,8 @@
 main control loop and initialization
 """
 import pygame
-import numpy as np
 from settings import *
 from environment import Environment
-from agent import Agent
-from genome import Genome
 from population import Population
 
 

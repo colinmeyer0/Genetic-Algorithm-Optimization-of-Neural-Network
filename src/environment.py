@@ -1,10 +1,13 @@
 """
 file for environment class
 including:
-1. loading track data from track_editor
+1. loading track data
 2. converting track segment data to pygame surface objects
-3. displaying the track
+3. displaying the track to the window
 4. track segment collision detection with car
+5. spatial partitioning (constructing spatial grid)
+6. casting sensor rays
+7. rendering text to window
 """
 
 import pygame

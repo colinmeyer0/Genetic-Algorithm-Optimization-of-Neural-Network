@@ -1,7 +1,9 @@
 """
 file for genome class
-including:
-1. 
+tasks:
+1. initializing weights
+2. crossover between self and other instance of class
+3. mutation based on fitness
 """
 import random
 import math
@@ -42,7 +44,6 @@ class Genome():
         # scale inversely to fitness
         fitness_factor = max(0.1, 1.0 / (1.0 + best_fitness * FITNESS_SCALE))
         mutation_mag *= fitness_factor
-        print(mutation_mag)
 
         for i in range(self.num_weights):
             if random.random() < MUT_RATE: # mutate random number of weights

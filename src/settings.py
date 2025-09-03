@@ -1,10 +1,11 @@
 """
-file for settings, i.e. constant values that can be changed
+file for constants
 """
+
 # main
 WORLD_WIDTH, WORLD_HEIGHT = 3200, 1800 # dimensions of window
 SCREEN_WIDTH, SCREEN_HEIGHT = 1600, 900 # dimensions of entire world/course
-FPS = 260
+FPS = 70
 BG_COLOR = (30, 30, 30)
 
 # environment

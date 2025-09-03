@@ -1,8 +1,8 @@
 """
 file for neural network class
-including:
-1. processing inputs
-2. normalizing using activation function
+tasks:
+1. processing inputs via feedforward network
+2. normalization using activation function
 """
 from settings import *
 import math

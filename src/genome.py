@@ -12,7 +12,7 @@ from settings import *
 
 class Genome():
     def __init__(self, weights=None):
-        self.layer_sizes = [len(SENSOR_ANGLES), NUM_HIDDEN_LAYERS, 2] # size of each layer of neural network
+        self.layer_sizes = [len(SENSOR_ANGLES), NUM_HIDDEN_NEURONS, 2] # size of each layer of neural network
         self.num_weights = (self.layer_sizes[0] * self.layer_sizes[1]) + (self.layer_sizes[1] * self.layer_sizes[2])
 
         if weights: # assign weights if provided

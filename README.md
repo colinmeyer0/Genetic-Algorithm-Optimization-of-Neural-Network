@@ -1,0 +1,2 @@
+# Genetic-Algorithm-Optimization-of-Neural-Network-Controllers-for-Self-Driving-Vehicles
+Implemented a 2D simulation framework in Python/Pygame for evolving autonomous agents. A genetic algorithm alters feedforward neural network weights through iterative evolution to optimize navigation behavior using selection, crossover, and mutation. Agents utilize raycast distance sensors as inputs and are evaluated based on a fitness function.
